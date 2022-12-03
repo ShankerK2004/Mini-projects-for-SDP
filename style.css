@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: poppins, sans-serif;
+}
+
+.body, .food, .food1, .food2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body img {
+  width: 100%;
+  height: 100vh;
+}
+
+#titleName {
+  width: 50%;
+  border-radius: 20px;
+  position: absolute;
+  font-size: 200%;
+  text-align: center;
+  font-weight: 800;
+  font-style: italic;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#favFoodImage1, #favFoodImage2, #favFoodImage3 {
+  width: 100%;
+  height: 80vh;
+  border-radius: 20px;
+  border: 4px solid white;
+  padding: 10px;
+}
+
+.food {
+  background-image: linear-gradient(120deg, #f6d365 50%, #fda085 50%);
+}
+
+.food1 {
+  background-image: linear-gradient(120deg, #ff5858 50%, #f09819 50%);
+}
+
+.food2 {
+  background-image: linear-gradient(120deg, #4facfe 50%, #00f2fe 50%);
+}
+
+.food, .food1, .food2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2%;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
