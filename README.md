@@ -12,6 +12,6 @@ vegsalad.html -> Day 3 - Vegetable Salad
 
 table1.html ->HTML web pages
 
-about.html , table.html ,contents.html ,web1.html - > Link Web Pages
+about.html , table.html ,contents.html ,index.html - > Link Web Pages
 
 I have Used Internal CSS for the above mini Projects ...
